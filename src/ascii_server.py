@@ -14,7 +14,7 @@ def generar_baner():
     ascii_banner = pyfiglet.figlet_format(texto)
     
     # Retornar el banner
-    return f"<pre>{ascii_banner}</pre>"
+    return f"{ascii_banner}"
 
 if __name__ == "__main__":
     # Obtener el puerto de la variable de entorno PUERTO_SERVIDOR o usar 5000 por defecto
